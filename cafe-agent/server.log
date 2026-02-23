@@ -1,0 +1,11 @@
+INFO:     Started server process [50068]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+Initializing data at /Users/prabeshshah/Desktop/model/cafe-agent/data...
+INFO:     127.0.0.1:59127 - "OPTIONS /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59127 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59128 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59151 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59991 - "OPTIONS /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59991 - "POST /chat HTTP/1.1" 200 OK

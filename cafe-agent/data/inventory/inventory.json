@@ -1,0 +1,22 @@
+{
+    "samosa": {
+        "stock": 50,
+        "unit": "pieces"
+    },
+    "butter_chicken": {
+        "stock": 30,
+        "unit": "servings"
+    },
+    "paneer_tikka": {
+        "stock": 25,
+        "unit": "servings"
+    },
+    "naan": {
+        "stock": 100,
+        "unit": "pieces"
+    },
+    "mango_lassi": {
+        "stock": 40,
+        "unit": "glasses"
+    }
+}
