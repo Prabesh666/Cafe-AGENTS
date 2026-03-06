@@ -3,7 +3,10 @@ import os
 from pathlib import Path
 from typing import Dict, Any, List
 
-DATA_DIR = Path(__file__).parent / "data"
+if os.environ.get("VERCEL"):
+    DATA_DIR = Path("/tmp/data")
+else:
+    DATA_DIR = Path(__file__).parent / "data"
 
 MENU_FILE = DATA_DIR / "menu" / "menu.json"
 INVENTORY_FILE = DATA_DIR / "inventory" / "inventory.json"

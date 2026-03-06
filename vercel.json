@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "cafe-agent/main.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "cafe-agent/main.py"
+    }
+  ]
+}
